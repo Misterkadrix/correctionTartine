@@ -1,0 +1,119 @@
+body {
+  margin: 0
+}
+
+/* Exo margin */
+section{
+  background-color: blue;
+
+}
+h2{
+  background-color: yellow;
+  border: 2px black solid;
+  height: 300px;
+}
+section:nth-child(1) h2:nth-child(3){
+  margin: 50px;
+}
+section:nth-child(1) h2:nth-child(5){
+  margin-left: 20%;
+}
+section:nth-child(1) h2:nth-child(7){
+  margin:auto;
+}
+
+/* fin exo margin */
+
+/* exo padding */
+section:nth-child(2) h2:nth-child(3){
+  padding: 50px;
+}
+section:nth-child(2) h2:nth-child(5){
+  padding-left: 20%;
+}
+
+
+/* fin exo padding */
+
+/* exo display */
+section:nth-child(3) {
+  margin: 20px;
+  padding: 50px;
+}
+/* section:nth-child(3) h2:nth-child(3) h2:nth-child(4){
+  display: inline-block;
+} */
+/* section:nth-child(3) h2:nth-child(3) h2:nth-child(4){
+  display: inline;
+} */
+
+/* h2{
+  display: inline-block;
+} */
+section:nth-child(3) h2:nth-child(4) {
+  display: none;
+}
+section:nth-child(3) h2:nth-child(4) {
+  display: none;
+}
+
+
+
+
+/* exo float */
+
+
+section:nth-child(4) h2 {
+  width: auto;
+}
+
+section:nth-child(4) h2{
+  float: left;
+}
+section:nth-child(4){
+  overflow: auto;
+}
+
+/* fin exo display */
+
+/* fin exo float */
+
+/* exo position */
+
+section:nth-child(5) h2{
+  position: fixed;
+  background-color: green;
+  margin: 0;
+  top: 0;
+}
+
+section:nth-child(5){
+  position: relative;
+  top: 50px;
+  left: 50%;
+  width: 50%;  
+}
+
+
+/* fin exo position */
+
+/* exo position (priorité) */
+section:nth-child(6) h2:nth-child(4){
+  background-color: rgb(101, 101, 211);
+  margin-left: 100px;
+
+}
+section:nth-child(6) h2{
+  position: absolute;
+
+}
+section:nth-child(6) h2:nth-child(3){
+  z-index: -1;
+}
+section:nth-child(6) h2:nth-child(4){
+  z-index: -2;
+}
+
+
+
+/* fin exo position (priorité) */
